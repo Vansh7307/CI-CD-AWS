@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vansh Aggarwal</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f4f4f4; color: #333; padding: 30px 20px; }
+    .container { max-width: 800px; margin: auto; }
+
+    .hero { background: #1a1a2e; color: white; padding: 40px; border-radius: 12px; text-align: center; margin-bottom: 24px; }
+    .hero h1 { font-size: 2.2rem; margin-bottom: 8px; }
+    .hero p { color: #aaa; font-size: 1rem; margin-bottom: 16px; }
+    .links a { color: #4fc3f7; text-decoration: none; margin: 0 10px; font-size: 0.9rem; }
+    .links a:hover { text-decoration: underline; }
+
+    .card { background: white; border-radius: 10px; padding: 24px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .card h2 { font-size: 1.1rem; color: #1a1a2e; margin-bottom: 14px; border-bottom: 2px solid #4fc3f7; padding-bottom: 6px; }
+
+    .skills { display: flex; flex-wrap: wrap; gap: 8px; }
+    .tag { background: #e8f4fd; color: #1a1a2e; padding: 4px 12px; border-radius: 20px; font-size: 0.82rem; }
+
+    .project { margin-bottom: 14px; }
+    .project a { font-weight: bold; color: #1a1a2e; text-decoration: none; }
+    .project a:hover { color: #4fc3f7; }
+    .project p { font-size: 0.85rem; color: #666; margin-top: 2px; }
+    .project .stack { font-size: 0.78rem; color: #999; margin-top: 2px; }
+
+    .exp-item { margin-bottom: 12px; }
+    .exp-item strong { display: block; font-size: 0.95rem; }
+    .exp-item span { font-size: 0.82rem; color: #888; }
+
+    .edu-item { margin-bottom: 10px; }
+    .edu-item strong { display: block; }
+    .edu-item span { font-size: 0.82rem; color: #888; }
+
+    .cert-list { columns: 2; gap: 16px; }
+    .cert-list li { font-size: 0.85rem; color: #555; margin-bottom: 6px; list-style: disc; margin-left: 16px; }
+
+    .lang-grid { display: flex; gap: 12px; flex-wrap: wrap; }
+    .lang-item { background: #f0f0f0; padding: 6px 14px; border-radius: 8px; font-size: 0.85rem; }
+
+    footer { text-align: center; font-size: 0.8rem; color: #aaa; margin-top: 30px; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Hero -->
+  <div class="hero">
+    <h1>Vansh Aggarwal</h1>
+    <p>Third-Year B.Tech CSE Student · SRM University, Sonepat<br>Building software and machine learning systems, end to end.</p>
+    <div class="links">
+      <a href="mailto:vanshaggarwaal11@gmail.com">📧 Email</a>
+      <a href="https://github.com/Vansh7307" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/vanshaggarwaal" target="_blank">LinkedIn</a>
+      <a href="https://vansh-portfolio-lake.vercel.app/" target="_blank">Portfolio</a>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="card">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">C++</span>
+      <span class="tag">SQL</span><span class="tag">TypeScript</span><span class="tag">React.js</span>
+      <span class="tag">Node.js</span><span class="tag">Next.js</span><span class="tag">Flask/FastAPI</span>
+      <span class="tag">LangGraph</span><span class="tag">Three.js</span><span class="tag">Supabase</span>
+      <span class="tag">NLP</span><span class="tag">Computer Vision</span><span class="tag">Deep Learning</span>
+      <span class="tag">RAG</span><span class="tag">Knowledge Graphs</span><span class="tag">AWS</span>
+      <span class="tag">GitHub Actions</span><span class="tag">Git</span>
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <div class="card">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <a href="https://github.com/Vansh7307/knowledgegraph-ai-multiagent-rag" target="_blank">KnowledgeGraph AI — Multi-Agent RAG System</a>
+      <p>Multi-agent retrieval-augmented generation system using knowledge graphs.</p>
+      <div class="stack">Python · LangGraph · NetworkX · BM25 · FastAPI</div>
+    </div>
+
+    <div class="project">
+      <a href="https://archinth-ai.vercel.app" target="_blank">ArchinthAI — AI-Assisted Residential Design Studio</a>
+      <p>AI-powered architectural design tool with 3D visualization.</p>
+      <div class="stack">Python · FastAPI · Next.js · TypeScript · Three.js · WebGL</div>
+    </div>
+
+    <div class="project">
+      <a href="https://github.com/Vansh7307/medical-diagnosis-ml" target="_blank">SmartMedic — Multi-Disease Predictive Diagnostic System</a>
+      <p>ML-based diagnostic system for predicting multiple diseases.</p>
+      <div class="stack">Python · Scikit-learn · TensorFlow/Keras · Flask/FastAPI</div>
+    </div>
+
+    <div class="project">
+      <a href="https://github.com/Vansh7307/natural-language-generator" target="_blank">Natural Language Generator</a>
+      <p>Seq2Seq text generation using Hugging Face Transformers.</p>
+      <div class="stack">Python · Hugging Face · PyTorch · FastAPI</div>
+    </div>
+
+    <div class="project">
+      <a href="https://github.com/Vansh7307/Face-Detection" target="_blank">VisionGuard — Face Detection & Tracking</a>
+      <p>Real-time face detection and tracking system.</p>
+      <div class="stack">Python · OpenCV · NumPy</div>
+    </div>
+
+    <div class="project">
+      <a href="https://vanshweatherweb.netlify.app" target="_blank">Weather App</a>
+      <p>Live weather app using Weather API.</p>
+      <div class="stack">HTML · CSS · JavaScript · WeatherAPI</div>
+    </div>
+  </div>
+
+  <!-- Experience -->
+  <div class="card">
+    <h2>Experience</h2>
+    <div class="exp-item">
+      <strong>AWS Student Builder Campus Leader — Amazon Web Services</strong>
+      <span>Jul 2026 – Present · Sonipat, Haryana · Hybrid</span>
+    </div>
+    <div class="exp-item">
+      <strong>Software Engineer Intern — Clinch Cloud Workforce</strong>
+      <span>May 2026 – Jul 2026 · Remote</span>
+    </div>
+    <div class="exp-item">
+      <strong>Gemini Student Ambassador — Google Gemini</strong>
+      <span>Apr 2026 – Jul 2026</span>
+    </div>
+    <div class="exp-item">
+      <strong>Web Development Intern — Amdox Technologies</strong>
+      <span>Apr 2026 – May 2026 · Bengaluru, Karnataka · On-site</span>
+    </div>
+    <div class="exp-item">
+      <strong>Web Developer — CyberZee</strong>
+      <span>Nov 2025 – Feb 2026 · SRM University · Hybrid</span>
+    </div>
+    <div class="exp-item">
+      <strong>Web Design & Python Intern — EDC info-net Software Solutions</strong>
+      <span>Jun 2024 – Aug 2024 · Karnal, Haryana</span>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="card">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <strong>B.Tech, Computer Science & Engineering — SRM University, Sonepat</strong>
+      <span>Aug 2024 – Jul 2028 (Expected) · DSA, OOD, DBMS, OS, Algorithms</span>
+    </div>
+    <div class="edu-item">
+      <strong>Class 12 (PCM) — Sant Gyaneshwar Model School, Delhi</strong>
+      <span>Jul 2022 – May 2024</span>
+    </div>
+    <div class="edu-item">
+      <strong>Class 10 — Pratap Public School, Karnal</strong>
+      <span>Apr 2021 – May 2022</span>
+    </div>
+  </div>
+
+  <!-- Certifications -->
+  <div class="card">
+    <h2>Certifications</h2>
+    <ul class="cert-list">
+      <li>IBM: Data Science with Scala</li>
+      <li>IBM: Data Analysis with Python</li>
+      <li>IBM: Data Visualization with Python</li>
+      <li>IBM: Build Your Own Chatbot</li>
+      <li>IBM: SQL and Relational Databases 101</li>
+      <li>Google Cloud: Introduction to Generative AI</li>
+      <li>Google Cloud: Agent Fundamentals</li>
+      <li>Microsoft: Introduction to AI and ML</li>
+      <li>Microsoft: Azure OpenAI with Python</li>
+      <li>Deloitte: Cyber Job Simulation (Forage)</li>
+      <li>Deloitte: Data Analytics Job Simulation</li>
+      <li>Adobe University Hackathon 2026</li>
+    </ul>
+  </div>
+
+  <!-- Languages -->
+  <div class="card">
+    <h2>Languages</h2>
+    <div class="lang-grid">
+      <div class="lang-item">🇬🇧 English — Professional</div>
+      <div class="lang-item">🇫🇷 French — Professional</div>
+      <div class="lang-item">🇮🇳 Hindi — Native</div>
+      <div class="lang-item">🌾 Haryanvi — Native</div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Vansh Aggarwal · Karnal, Haryana, India · vanshaggarwaal11@gmail.com</p>
+    <p style="margin-top:6px;">Deployed via AWS CodePipeline → Netlify</p>
+  </footer>
+
+</div>
+</body>
+</html>

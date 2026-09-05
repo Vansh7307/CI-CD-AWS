@@ -220,7 +220,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support and questions:
 - Create an issue in this repository
-- Contact: palsamarth9@gmail.com
+- Contact: vanshaggarwaal11@gmail.com
+- GitHub: [github.com/Vansh7307](https://github.com/Vansh7307)
+- LinkedIn: [linkedin.com/in/vanshaggarwaal](https://linkedin.com/in/vanshaggarwaal)
+- Portfolio: [vansh-portfolio-lake.vercel.app](https://vansh-portfolio-lake.vercel.app/)
 - Documentation: AWS Official Documentation
 
 ## 🙏 Acknowledgments

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fortino Romero Mantilla</title>
+    <title>Vansh Aggarwal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -30,9 +30,9 @@
 </head>
 <body>
     <div class="container">
-        <h1>Fortino Romero Mantilla</h1>
-        <p>Welcome to the personal webpage of Fortino Romero Mantilla.</p>
-        <p>Fortino is an innovative thinker with a passion for technology and problem-solving.</p>
+        <h1>Vansh Aggarwal</h1>
+        <p>Welcome to the personal webpage of Vansh Aggarwal.</p>
+        <p>Third-Year B.Tech CSE Student at SRM University | Building software and machine learning systems, end to end.</p>
         <p>Stay tuned for more updates about his projects and contributions.</p>
         <p>If you see this line, that means your latest changes are automatically deployed into production by CodePipeline!</p>
 
